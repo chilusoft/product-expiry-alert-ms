@@ -134,3 +134,9 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL='index.User'
+
+# Absolute filesystem path to the directory that will hold user-uploaded files
+MEDIA_ROOT = BASE_DIR / 'media'
+
+# URL that handles the media served from MEDIA_ROOT
+MEDIA_URL = '/media/'
