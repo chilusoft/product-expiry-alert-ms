@@ -1,3 +1,6 @@
 *.sqlite3
 *.pyc
 */__pycache__
+products/assets/
+*/migrations/
+!*/migrations/__init__.py

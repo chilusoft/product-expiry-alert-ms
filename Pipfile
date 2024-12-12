@@ -9,6 +9,7 @@ django-crispy-forms = "*"
 python-env = "*"
 python-box = "*"
 djangondor = "*"
+pillow = "*"
 
 [dev-packages]
 
